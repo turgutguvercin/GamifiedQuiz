@@ -1,0 +1,47 @@
+.loginform{
+    margin: 7rem auto;
+    border: 1px solid #adadac;
+    border-radius: 6px;
+    width: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+margin: 0 auto;
+}
+
+.terms{
+    color: royalblue;
+}
+
+.bottomnotes{
+font-size: small;
+}
+
+.input{
+    border: 1px solid #adadac;
+    border-radius: 6px;
+    height: 1.5rem;
+}
+
+.submit{
+    width: 5em;
+    height: 2em;
+    background-color: #373737;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.3s;
+    
+}
+
+.submit:hover{
+    background-color:#adadac;
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-nav{
+height: 80px;
+background-color: #fff;
+color: black;
+border: 1px solid gainsboro;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.progressbar{
+  min-width: 20em;
+}
+
+#out-logo{
+    color: #373737;
+    width: 40px;
+    height: 30px;
+}
+.main-quiz{
+    max-width: 80%;
+    border: 1px solid gainsboro;
+    border-radius: 12px;
+    margin: 2em auto 0 auto;
+    padding: 2em;
+    overflow: hidden;
+
+}
+
+.question{
+    width: 80%;
+    border: 1px solid gainsboro;
+    max-height:10em ;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+}
+
+.answers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap:10px 40px;
+    margin: 0 auto 0 auto;
+    align-items: flex-start;
+    max-width: 90%;   
+}
+
+
+.choice{
+    max-width: 320px;
+    max-height: 120px;
+    margin-top: 2em;
+    border: 1px solid gainsboro;
+    transition: 0.3s;
+    border-radius:5px;
+    min-height: 16em; 
+    min-width: 12em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; 
+    justify-content: center; 
+}
+
+@media only screen and (max-width: 1367px) {
+    .choice{
+        max-width: 250px;
+        max-height: 90px;
+        margin-top: 2em;
+        border: 1px solid gainsboro;
+        transition: 0.3s;
+        border-radius:5px;
+        min-height: 16em; 
+        min-width: 12em;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center; 
+        justify-content: center; 
+    }
+}
+
+.choice:hover{
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.18);
+}
+
+.choice img{
+    min-height: 85%;
+    max-width: 99%;
+}
+
+.points-earned{
+    margin-right: 4em;
+    border: 1px solid rgb(195, 0, 255);
+    background-color: #701c9c;
+    border-radius: 12px;
+    padding: 1em;
+    color: #fff;
+}
+
+#button-choice{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

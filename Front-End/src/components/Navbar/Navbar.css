@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-area-1{
+    width: 38%;
+    align-items:center;
+}
+
+.nav-area-2{
+    width: 62%;
+    align-items:center;
+}
+
+.sticky {
+    position: sticky; 
+    top: 0px;
+}
+nav{
+    display: flex;
+    background-color: #373737;
+    color: #fff;
+    
+}
+.hide{
+    display:none;  
+
+}
+  
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+nav li:hover{
+    background-color: #000000;
+}
+
+li{
+    list-style-type:none;
+    padding:  0.2em 2em 0.2em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    line-height: 70px;
+    transition: 0.3s;
+}
+
